@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Vujahday+Script&display=swap');
+
+body {
+  background-image: url('./imagens/mesa.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+* {
+ font-family: sans-serif;
+}
+
+#header {
+  text-align: center;
+  padding: 30px;
+}
+
+#titulo {
+  font-family: 'Libre Baskerville';
+  font-size: 4em;
+}
+
+#secao #funcionamento {
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+#secao {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height:50vh;
+  box-shadow: 10px 10px 8px  white;
+  border-radius: 20px;
+}
+
+#funcionamento {
+  font-size: 20px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+#tarefas {
+  text-align: left;
+  font-size: 20px;
+  width:auto;
+  padding: 30px 0 30px 0;
+}
+
+#texto-tarefa {
+  border-radius: 7px;
+  border: 3px solid black;
+  width: 400PX;
+  height: 25px;
+  font-size: 18px;
+}
+
+ol {
+  text-align: left;
+  background-color: rgb(205, 205, 205);
+  border-radius: 10px;
+  border: 1px solid black;
+  padding-inline-start: 0;
+}
+
+ol li {
+  border-bottom: 1px solid black;
+  list-style: none;
+}
+
+.itens {
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+}
+
+#criar-tarefa {
+  background-color:darkgoldenrod;
+  color: black;
+  font-weight: 500;
+  font-size: 24px;
+  border-radius: 20px;
+  opacity: 0.8;
+  border: 2px solid black;
+  text-transform: capitalize;
+}
+
+#criar-tarefa:hover {
+  font-weight: 700;
+  opacity: 1;
+  box-shadow: 4px 4px
+}
+
+#mover-cima {
+  background-color:blue;
+  color: black;
+  font-weight: 500;
+  font-size: 24px;
+  border-radius: 20px;
+  opacity: 0.8;
+  border: 2px solid black;
+  text-transform: capitalize;
+}
+
+#mover-cima:hover{
+  font-weight: 700;
+  opacity: 1;
+  box-shadow: 4px 4px
+
+}
+
+#mover-baixo {
+  background-color:brown;
+  color: black;
+  font-weight: 500;
+  font-size: 24px;
+  border-radius: 20px;
+  opacity: 0.8;
+  border: 2px solid black;
+  text-transform: capitalize;
+}
+
+#mover-baixo:hover {
+  font-weight: 700;
+  opacity: 1;
+  box-shadow: 4px 4px
+
+}
+
+#remover-finalizados {
+  background-color:darkviolet;
+  color: black;
+  font-weight: 500;
+  font-size: 24px;
+  border-radius: 20px;
+  opacity: 0.8;
+  border: 2px solid black;
+  text-transform: capitalize;
+  text-decoration: line-through;
+}
+
+#remover-finalizados:hover {
+  font-weight: 700;
+  opacity: 1;
+  box-shadow: 4px 4px
+
+}
+
+#remover-selecionado {
+  background-color:lightsalmon;
+  color: black;
+  font-weight: 500;
+  font-size: 24px;
+  border-radius: 20px;
+  opacity: 0.8;
+  border: 2px solid black;
+  text-transform: capitalize;
+}
+
+#remover-selecionado:hover {
+  font-weight: 700;
+  opacity: 1;
+  box-shadow: 4px 4px
+
+}
+
+#salvar-tarefas {
+background-color:green;
+  font-weight: 500;
+  font-size: 24px;
+  border-radius: 20px;
+  opacity: 0.8;
+  border: 2px solid black;
+  text-transform: capitalize;
+}
+
+#salvar-tarefas:hover {
+  font-weight: 700;
+  opacity: 1;
+  box-shadow: 4px 4px
+
+}
+
+#apaga-tudo {
+  background-color:red;
+  color: black;
+  font-weight: 500;
+  font-size: 24px;
+  border-radius: 20px;
+  opacity: 0.8;
+  border: 2px solid black;
+  text-transform: capitalize;
+}
+
+#apaga-tudo:hover {
+  font-weight: 700;
+  opacity: 1;
+  box-shadow: 4px 4px;
+}
